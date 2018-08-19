@@ -25,7 +25,7 @@ SECRET_KEY = 'ej0ns-zcodv8g(=7qdbz42ugz0%payrk!wilc#dv5lpz-tqta1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['pawliux.pythonanywhere.com',]
 
 
 # Application definition
