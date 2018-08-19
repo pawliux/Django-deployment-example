@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+{% extends "basic_app/base.html" %} <!-- must be first line -->
+{% load my_extras %}
+    {% block body_block %}
+        <h1>Welcome to Index!</h1>
+        <h2>Made with inheritance</h2>
+        <!-- using a upper filter (same as string method upper in python) -->
+        <h2>{{ text|my_cut:'o' }}</h2>
+        <h2>{{ text|my_cut2:'hell' }}</h2>
+        <!-- add filter -->
+        <h3>{{ number|add:"99" }}</h3>
+    {% endblock %}
